@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -40,11 +40,68 @@
             </div>
             <div class="flex space-x-3 items-center">
                 <img src="assets/coin.png" alt="">
-                <h4 class="space-x-0"><span>5500</span> <span>BTD</span></h4>
+                <h4 class="space-x-0"><span>5500</span> <span>BDT</span></h4>
             </div>
         </nav>
         <!-- Nav section end -->
     </Header>
+
+    <!-- main section -->
+    <main class="w-3/4 mx-auto py-7">
+        <h1 class=" text-2xl font-bold">Important FAQ <i class="fa-solid fa-question"></i> </h1>
+
+        <div class="py-7 flex flex-col gap-y-8">
+            <div class="collapse collapse-arrow bg-base-200 p-4">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                <div class="collapse-content">
+                    <p>The Document Object Model (DOM) is a structured representation of a web page. It allows
+                        JavaScript to interact with and change the HTML and CSS of a website. Think of it as a tree
+                        where every HTML element (like
+                        div, p, img) is a "node" that can be accessed, modified, or removed.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200 p-4">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you select on element from the DOM?</div>
+                <div class="collapse-content">
+                    <p>
+                        To select an element from the DOM, use: <br>
+                        -document.getElementById('id') for an element with a specific ID. <br>
+                        -document.querySelector('selector') for the first match of a CSS selector (like #id,
+                        .class). <br>
+                        -document.querySelectorAll('selector') for all matching elements. </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200 p-4">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and
+                    why is it useful?</div>
+                <div class="collapse-content">
+                    <p>Event delegation is a technique where you add an event listener to a parent element to handle
+                        events on its child elements.
+
+                        It’s useful because: <br>
+                        - It reduces the number of event listeners. <br>
+                        - It works for dynamically added elements. </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200 p-4">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and
+                    why is it useful?</div>
+                <div class="collapse-content">
+                    <p>Event delegation is a technique where you add an event listener to a parent element to handle
+                        events on its child elements.
+
+                        It’s useful because: <br>
+                        - It reduces the number of event listeners. <br>
+                        - It works for dynamically added elements. </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
 
 </html>
